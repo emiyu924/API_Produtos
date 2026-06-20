@@ -37,7 +37,7 @@ produtos = [
 ] 
 
 #criar uma rota
-@app.route("/listar", methods=['GET'])
+@app.route("/", methods=['GET'])
 def exibirProdutos():
     return jsonify(produtos)
 
